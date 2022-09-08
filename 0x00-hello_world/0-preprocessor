@@ -1,11 +1,2 @@
-#include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    return (0);
-}
+#!/bin/bash 
+echo -e '#include <stdio.h> \n/** \n* main - Entry point \n* \n* Return: Always 0 (Success)\n*/\nint main(void)\n{\nreturn (0);\n}'
