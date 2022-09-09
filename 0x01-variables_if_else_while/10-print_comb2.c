@@ -22,6 +22,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
+	2-print_alphabet.c
 	putchar('\n');
 
 	return (0);
