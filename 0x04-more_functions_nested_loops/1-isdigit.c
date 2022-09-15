@@ -1,16 +1,18 @@
 #include "main.h"
-/**
- * print_alphabet - function to print abc
- *
- * Return: 0
- */
-void print_alphabet(void)
-{
-	char c;
+#include <stdio.h>
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-_putchar('\n');
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char c;
+
+    c = '0';
+    printf("%c: %d\n", c, _isdigit(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isdigit(c));
+    return (0);
 }
