@@ -1,17 +1,16 @@
-#include "main.h"
+#include"main.h"
 #include <stdio.h>
-
 /**
-* _isdigit - returns 1 if digit, 0 if not
-* @c: an int given by the main function
+* _isdigit - function to check 0-9
 *
-* Description: Uses headers to link and a nested loops to achieve goal
-* Return: see first line
+* @c: checks input of function
+*
+* Return: returns 1 if `c` is digit
+* otherwise always 0 (Success)
 */
-
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	return (0);
+if (c >= 48 && c <= 57)
+return (1);
+return (0);
 }
