@@ -1,19 +1,20 @@
 #include "main.h"
-
 /**
-* print_line - prints underscores a number of times
-* @n: an int given by main
-*
-* Description: Uses headers to link and a nested loops to achieve goal
-* Return: void. no return.
+* print_line - draws a straight line in the terminal
+* @n: number of times the character _ should be printed
 */
-
 void print_line(int n)
 {
-	while (n > 0)
-	{
-		_putchar('_');
-		n--;
-	}
-	_putchar('\n');
+if (n <= 0)
+{
+_putchar('\n');
+} else
+{
+int i;
+for (i = 1; i <= n; i++)
+{
+_putchar('_');
+}
+_putchar('\n');
+}
 }
