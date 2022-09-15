@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "6-main.c"
 
 /**
 * print_line - prints underscores a number of times
