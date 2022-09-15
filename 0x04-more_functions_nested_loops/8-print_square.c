@@ -1,26 +1,23 @@
 #include "main.h"
-
 /**
-* print_square - prints a size by size square
-* @size: an int given by main
-*
-* Description: Uses headers to link and a nested loops to achieve goal
-* Return: void. no return.
+* print_square - prints a square, followed by a new line;
+* @size: size of the square
 */
-
 void print_square(int size)
 {
-	int i, j;
-
-
-	if (size <= 0)
-		_putchar('\n');
-	for (i = size; i > 0; i--)
-	{
-		for (j = size; j > 0; j--)
-		{
-			_putchar('#');
-		}
-		_putchar('\n');
-	}
+if (size <= 0)
+{
+_putchar('\n');
+} else
+{
+int i, j;
+for (i = 0; i < size; i++)
+{
+for (j = 0; j < size; j++)
+{
+_putchar('#');
+}
+_putchar('\n');
+}
+}
 }
