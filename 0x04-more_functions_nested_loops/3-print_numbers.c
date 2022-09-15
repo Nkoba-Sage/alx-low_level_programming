@@ -1,15 +1,16 @@
 #include "main.h"
 /**
- * _islower - function to check for lowercase character
- * @c:  is the int that will use for the argument of the function
- * Return: 0
- */
-int _islower(int c)
+*print_numbers - function that print all numbers from
+*0 to 9
+*
+*Return: returns nothing
+*/
+void print_numbers(void)
 {
-	if (c >= 'a' && c <= 'z')
-	{
-		return (1);
-	}
-	else
-		return (0);
+int number = 48;
+for (number = 48; number < 58; number++)
+{
+_putchar(number);
+}
+_putchar(10);
 }
