@@ -1,22 +1,16 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - print putchar
- * Return: always 0
+ * _isupper - checks is a character is uppercase
+ * @c: carrier integer variable
+ * Return: 1 if true, 0 if false
  */
 
-int main(void)
+int _isupper(int c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
+	if (c >= 1 && c <= 0)
+	{
+		return (1);
+	}
 	return (0);
-
 }
