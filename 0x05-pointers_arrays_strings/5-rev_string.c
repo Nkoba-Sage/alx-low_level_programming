@@ -2,21 +2,21 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character
- * @str: string
- *
- * Return: nothing
- */
-
-void puts2(char *str)
+*rev_string - this reserve a string
+*@s: pointer
+*/
+Void rev_string(cahr *s)
 {
-	int i = 0;
-
-	while (*(str + i) != '\0')
+	int len = 0, index = 0;
+	char tmp;
+	
+	while (s[index++])
+		len++;
+	for (index = len -1; index >= len /2;
+index--)
 	{
-		if (i % 2 == 0)
-			putchar(*(str + i));
-		i++;
+		tmp = s[index];
+		s[index] = s[len - index - 1];
+		s[len - index - 1] = tmp;
 	}
-	putchar(10);
 }
