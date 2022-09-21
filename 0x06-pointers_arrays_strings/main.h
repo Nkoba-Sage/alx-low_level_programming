@@ -4,7 +4,7 @@
 
 /**
  * File: main.h
- * Auth: sam tech(Samuel birhanu)
+ * Auth: leaner(Nkoba Ismael)
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x06. C - More pointers, arrays and strings directory.
  */
