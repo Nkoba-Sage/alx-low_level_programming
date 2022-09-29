@@ -5,8 +5,11 @@
  * Return: Always 1 (Success)
  */
 int main (void)
-
 {
-    scanf(""and that piece of art is useful" -Dora Korpar, 2015-10-19\n");
+    
+    int date = 2015-10-19;
+    char info = and that piece of art is useful;
+    char name = - Dora Korpar;
+    scanf("%s", &info  - "%s", &name, "%d", &date\n");
     return (1);
 }
